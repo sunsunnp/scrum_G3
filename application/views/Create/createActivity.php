@@ -4,23 +4,29 @@
   <title>สร้างกิจกรรม</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <!--  jQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
 
     <!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
-    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+    <link rel="stylesheet" href="public/css/bootstrap-iso.css" />
 
     <!-- Bootstrap Date-Picker Plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap-datepicker.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="bootstrap-iso">
-    <div class="container">
+
+  <br>
+  
+<div class="">
+<div class="container col-md-3">
+</div>
+    <div class="container col-md-6 border rounded">
     <h2>สร้างกิจกรรม</h2>
     <form>
         <div class="form-group">
@@ -28,7 +34,7 @@
             <input type="text" class="form-control" id="name_activity" name="name_activity">
         </div>
         <div class="form-group">
-            <label for="exampleTextarea">รายละเอียดกิจกรม</label>
+            <label for="exampleTextarea">รายละเอียดกิจกรรม</label>
             <textarea class="form-control" id="detail_activity" rows="3" name="detail_activity"></textarea>
         </div>
         <div class="form-group">
@@ -93,10 +99,15 @@
     <div class="form-group">
         <div class="offset-sm-2 col-sm-10">
             <button type="submit" class="btn btn-primary  ">สร้าง</button>
+            <br>
         </div>
     </div>
 </form>
 </div>
+</div>
+
+<br><br>
+
 
 </body>
 
