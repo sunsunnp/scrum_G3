@@ -23,7 +23,7 @@
     <div class="container">
     <h2>สร้างกิจกรรม</h2>
     <form>
-        <div class="form-group">
+        <div class="form-group col-2">
             <label for="name">ชื่อกิจกรรม:</label>
             <input type="text" class="form-control" id="name_activity" name="name_activity">
         </div>
@@ -34,54 +34,63 @@
         <div class="form-group">
             <label class="control-label" for="date" class="col-2 col-form-label">วันเริ่มกิจกรรม:</label>
         <div class="col-6">
-            <input class="form-control" type="date" value="2011-08-19" id="start_activity" name="start_activity">
+            <input class="form-control" type="date"  id="start_activity" name="start_activity">
         </div>
         </div>
         <div class="form-group">
             <label class="control-label" for="time" class="col-2 col-form-label">เวลาเริ่มกิจกรรม:</label>
         <div class="col-6">
-            <input class="form-control" type="time" value="13:45:00" id="time_activity">
+            <input class="form-control" type="time"  id="time_activity">
         </div>
         </div>
         <div class="form-group">
             <label class="control-label" for="date"  class="col-2 col-form-label">วันสิ้นสุดกิจกรรม:</label>
         <div class="col-6">
-            <input class="form-control" type="date" value="2011-08-19" id="end_activity" name="end_activity">
+            <input class="form-control" type="date"  id="end_activity" name="end_activity">
         </div>
         </div>
         <div class="form-group">
             <label class="control-label" for="time" class="col-2 col-form-label">เวลาสิ้นสุดกิจกรรม:</label>
         <div class="col-6">
-            <input class="form-control" type="time" value="13:45:00" id="time_activity">
+            <input class="form-control" type="time"  id="time_activity">
         </div>
         </div>
         <div class="form-group">
+            <label class="control-label"  class="col-2 col-form-label">ชั้นปี:</label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 1
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 1
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 2
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 2
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 3
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 3
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 4
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 4
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 5
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 5
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 6
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 6
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 7
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 7
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 8
+            <input type="checkbox" value="" id="student_activity" name="student_activity">ชั้นปีที่ 8
         </label>
     </div>
-    <div class="form-group row">
+    <div class="form-group">
+            <label for="name">ปีการศึกษา:</label>
+            <input type="text" class="form-control" id="name_activity" name="name_activity">
+    </div>
+    <div class="form-group">
+            <label for="name">เทอม:</label>
+            <input type="text" class="form-control" id="name_activity" name="name_activity">
+    </div>
+    <div class="form-group">
         <div class="offset-sm-2 col-sm-10">
             <button type="submit" class="btn btn-primary  ">สร้าง</button>
         </div>
@@ -94,7 +103,7 @@
 </html>
 
 
-<script>
+<!-- <script>
     $(document).ready(function(){
       var date_input=$('input[name="date"]'); //our date input has the name "date"
       var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
@@ -106,5 +115,5 @@
       };
       date_input.datepicker(options);
     })
-</script>
+</script> -->
 
