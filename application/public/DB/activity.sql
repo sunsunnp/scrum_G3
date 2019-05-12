@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 12, 2019 at 08:14 AM
+-- Generation Time: May 12, 2019 at 08:38 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.40
 
@@ -63,6 +63,15 @@ CREATE TABLE `student` (
   `branch` varchar(100) NOT NULL,
   `tel` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `student`
+--
+
+INSERT INTO `student` (`id_student`, `name_student`, `year_activity`, `email`, `faculty`, `branch`, `tel`) VALUES
+(58111410, 'นายโกเมศ รักชุม', 4, 'gusdeknoi@gmail.com', 'สารสนเทศศาสตร์', 'วิศวกรรมซอฟต์แวร์', '0812345678'),
+(59123570, 'นายอารีฟีน กุลดี', 3, 'feenkundee@gmail.com', 'สารสนเทศศาสตร์', 'วิศวกรรมซอฟต์แวร์', '0630833136'),
+(59145003, 'นายอัสมาวี ลาเตะ', 3, 'tqi11@nvo0wt1ius1bni.com', 'สารสนเทศศาสตร์', 'วิศวกรรมซอฟต์แวร์', '0897312287');
 
 --
 -- Indexes for dumped tables
