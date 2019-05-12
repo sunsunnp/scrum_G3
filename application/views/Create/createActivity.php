@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>สร้างกิจกรรม</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
     <div class="container">
     <h2>สร้างกิจกรรม</h2>
     <form>
-        <div class="form-group col-2">
+        <div class="form-group">
             <label for="name">ชื่อกิจกรรม:</label>
             <input type="text" class="form-control" id="name_activity" name="name_activity">
         </div>
@@ -84,11 +84,11 @@
     </div>
     <div class="form-group">
             <label for="name">ปีการศึกษา:</label>
-            <input type="text" class="form-control" id="name_activity" name="name_activity">
+            <input type="text" class="form-control" id="" name="">
     </div>
     <div class="form-group">
             <label for="name">เทอม:</label>
-            <input type="text" class="form-control" id="name_activity" name="name_activity">
+            <input type="text" class="form-control" id="" name="">
     </div>
     <div class="form-group">
         <div class="offset-sm-2 col-sm-10">
