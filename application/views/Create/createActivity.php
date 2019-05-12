@@ -56,14 +56,30 @@
         </div>
         </div>
         <div class="form-group">
-            <label for="year">ชั้นปี:</label>
-                <select class="form-control" id="student_activity">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 1
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 2
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 3
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 4
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 5
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 6
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 7
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="" id="end_activity" name="end_activity">ชั้นปีที่ 8
+        </label>
     </div>
     <div class="form-group row">
         <div class="offset-sm-2 col-sm-10">
