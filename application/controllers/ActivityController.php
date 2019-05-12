@@ -52,7 +52,7 @@ class ActivityController extends CI_Controller
         $start_activity = $this->input->post('start_activity');
         $end_activity = $this->input->post('end_activity');
         $time_activity = $this->input->post('time_activity');
-        $student_activity = $this->input->post('student_activity')
+        $student_activity = $this->input->post('student_activity');
         
 
         $data = array(
