@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 12, 2019 at 08:38 AM
+-- Generation Time: May 12, 2019 at 08:46 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.40
 
@@ -35,7 +35,8 @@ CREATE TABLE `activity` (
   `status` varchar(255) CHARACTER SET utf8 NOT NULL,
   `start_activity` date NOT NULL,
   `end_activity` date NOT NULL,
-  `time_activity` int(11) NOT NULL,
+  `timestart_activity` int(11) NOT NULL,
+  `timeend_activity` int(3) NOT NULL,
   `student_activity` varchar(11) CHARACTER SET utf8 NOT NULL,
   `term` int(1) NOT NULL,
   `year` int(4) NOT NULL
@@ -45,8 +46,8 @@ CREATE TABLE `activity` (
 -- Dumping data for table `activity`
 --
 
-INSERT INTO `activity` (`id_activity`, `name_activity`, `detail_activity`, `status`, `start_activity`, `end_activity`, `time_activity`, `student_activity`, `term`, `year`) VALUES
-(0, '', '0', '0', '0000-00-00', '0000-00-00', 0, '0', 0, 0);
+INSERT INTO `activity` (`id_activity`, `name_activity`, `detail_activity`, `status`, `start_activity`, `end_activity`, `timestart_activity`, `timeend_activity`, `student_activity`, `term`, `year`) VALUES
+(0, '', '0', '0', '0000-00-00', '0000-00-00', 0, 0, '0', 0, 0);
 
 -- --------------------------------------------------------
 
